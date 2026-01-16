@@ -147,13 +147,14 @@ Data Splitting: Split the dataset into training (206 samples) and testing (103 s
 Models and Performance
 We implemented and compared six different classification algorithms. Below are the performance results on the test set:
 
-Model	Accuracy	Precision	Recall	F1 Score
-Random Forest	89.32%	0.9043	0.9770	0.9392
-Logistic Regression	88.35%	0.8947	0.9770	0.9341
-Naive Bayes	86.41%	0.9101	0.9310	0.9205
-K-Nearest Neighbors	84.47%	0.8586	0.9770	0.9140
-Decision Tree	84.47%	0.8586	0.9770	0.9140
-SVM (RBF Kernel)	84.47%	0.8447	1.0000	0.9158
+Model	         Accuracy	  Precision	   Recall	  F1 Score
+Random Forest	  89.32%	   0.9043	     0.9770	   0.9392
+Logistic Regression	88.35%	0.8947	   0.9770	   0.9341
+Naive Bayes	    86.41%	   0.9101	     0.9310	   0.9205
+K-Nearest Neighbors	84.47% 0.8586	     0.9770	   0.9140
+Decision Tree	  84.47%	   0.8586	     0.9770	   0.9140
+SVM (RBF Kernel)	84.47%	 0.8447	     1.0000	   0.9158
+
 Key Insights
 
 Best Overall Model: Random Forest achieved the highest accuracy and F1 score, making it the most balanced model for this dataset.
@@ -172,3 +173,4 @@ Install required libraries: pip install pandas scikit-learn seaborn matplotlib.
 Load the survey lung cancer.csv dataset.
 
 Execute the script to see model training and evaluation metrics.
+
